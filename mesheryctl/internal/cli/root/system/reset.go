@@ -43,6 +43,7 @@ var resetCmd = &cobra.Command{
 // resets meshery config, skips conirmation if skipConfirmation is true
 func resetMesheryConfig() error {
 	// ask user for confirmation
+	log.Info("Hello")
 	userResponse := utils.AskForConfirmation("Meshery config file will be reset to system defaults. Are you sure you want to continue")
 	if !userResponse {
 		log.Info("Reset aborted.")
