@@ -6,8 +6,8 @@ on:
     paths:
       - 'mesheryctl/**'
   pull_request:
-    branches:
-      - 'master'
+    # branches:
+    #   - 'master'
     paths:
       - 'mesheryctl/**'
   workflow_dispatch:
